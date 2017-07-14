@@ -1,0 +1,36 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+}
+.one_field,
+.three_field,
+.five_field{
+	width: 200px;
+	height: 200px;
+	background-color: #850000;
+}
+.six_field{
+	width: 200px;
+	height: 200px;
+	background-color: white;
+}
+.seven_field,
+.nine_field{
+	width: 200px;
+	height: 200px;
+	background-color: #850000;
+
+}
+.two_field,
+.four_field,
+.eight_field{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+}
