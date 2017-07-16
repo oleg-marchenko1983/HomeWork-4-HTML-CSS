@@ -6,31 +6,18 @@
   width: 600px;
   height: 600px;
 }
-.one_field,
-.three_field,
-.five_field{
-	width: 200px;
-	height: 200px;
-	background-color: #850000;
-}
-.six_field{
-	width: 200px;
-	height: 200px;
-	background-color: white;
-}
-.seven_field,
-.nine_field{
-	width: 200px;
-	height: 200px;
-	background-color: #850000;
 
+div{
+	width: 200px;
+	height: 200px;
 }
-.two_field,
-.four_field,
-.eight_field{
+
+.wrapper>div:nth-child(odd){
+	background-color: #850000;
+}
+
+ .wrapper>div:nth-child(even){
 	display:flex;
 	align-items:center;
 	justify-content: center;
-	width: 200px;
-	height: 200px;
 }
